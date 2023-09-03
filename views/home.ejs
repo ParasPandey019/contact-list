@@ -17,7 +17,7 @@
                     <p> <%= i.name %> </p>
                     <p> <%= i.phone %> </p>
                 </li>
-                <a href ="delete-contact/?phone=<%= i.phone %>&name=<%= i.name %>">
+                <a href ="delete-contact/?id=<%= i._id %>&name=<%= i.name %>">
                     <button>delete</button>
                 </a>
             <% } %>
